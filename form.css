@@ -39,6 +39,7 @@ nav .logo
     top:2%;left:10%;
     z-index:3;
 }
+
 .box
 {
     min-height:500px;
@@ -48,9 +49,10 @@ nav .logo
     /* backdrop-filter:blur(5px); */
     /* box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.5) ; */
     position: absolute;
-    top:10%;
+    top:8%;
     left:33%;
-    transform: translate(-10,-33);z-index: 3;
+    transform: translate(-8,-33);
+    z-index: 3;
 }
 .sign-in
 {
@@ -249,4 +251,22 @@ background-color: rgb(193,17,25);
     font-size: 16px;
     margin-bottom:100px;
     color:#fff
+}
+
+@media screen and (max-width:768px)
+{
+    .box
+    {
+    position: absolute;
+    top:8%;
+    left:6%;
+    transform: translate(-8,-6);
+    min-width:250px;
+    }
+    .foot
+    {
+    margin-right:50px;
+    margin-left:50px;
+    }
+
 }

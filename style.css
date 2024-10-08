@@ -547,10 +547,7 @@ margin-left: 250px;
     .last
     {
         margin-left:200px ;
-    }
-
-   
-   
+    }  
 }
 
 @media screen and (max-width:768px)
@@ -710,6 +707,7 @@ margin-left: 250px;
 }
 
 @media screen and (max-width:576px)
+
 {
     .content .two p
     {
@@ -729,7 +727,3 @@ margin-left: 250px;
         margin-left: 25px;
     } 
 }
-
-
-
-

@@ -270,3 +270,12 @@ background-color: rgb(193,17,25);
     }
 
 }
+
+@media screen and (max-width:450px)
+{
+    .sign-in input,.sign-in button
+    {
+        width:auto;
+    }
+
+}

@@ -417,6 +417,13 @@ margin-left: 250px;
 {
     background-color: rgba(255,255,255,0.2);
 }
+@media screen and (max-width:2600px)
+{
+    .quries
+    {
+        display: none;
+    }
+}
 
 @media screen and (max-width:1400px)
 {
@@ -439,6 +446,7 @@ margin-left: 250px;
         min-width:250;
         margin: 15px;
     }
+
     .content .two input
     {
     height:50px;
@@ -451,6 +459,7 @@ margin-left: 250px;
     color: #fff;
     border-radius:5px ;
     }
+
     .content button,.last button
     {
     background-color:rgb(229,9,20);
@@ -467,6 +476,7 @@ margin-left: 250px;
     {
         display: none;
     }
+
     #carousel-btn1
     {
     background-color:rgba(255,255,255,0.1);
@@ -484,19 +494,18 @@ margin-left: 250px;
     position:absolute;top:35%;left:5%;
     }
     .content .success input
-{
+    {
      border-color: #0cc477;
-}
+    }
 
-.content .error input
-{
+    .content .error input
+    {
      border-color:rgb(193,17,25);
-}
-.two.error input:focus,.last .error input:focus
-{
+    }
+    .two.error input:focus,.last .error input:focus
+    {
     outline: none;
-    
-    
+    }
 }
 
 @media screen and (max-width:992px)
@@ -726,4 +735,52 @@ margin-left: 250px;
     {
         margin-left: 25px;
     } 
+}
+
+@media screen and (max-width:450px)
+{
+    .logo
+    { 
+    position:absolute;
+    top:2%;left:5%;
+    z-index:999;
+    }
+    .logo img
+    {
+        width:75px;
+    }
+    .menu
+    {
+        position: absolute;
+        top:3%;right:5%;
+        z-index:999;
+    }
+    .menu select
+    {
+        font-size:13px;
+    }
+    .content .one h1
+    {
+        font-size:2.3rem;
+    }
+    .last input
+    {
+        width: 190px;
+        
+    }
+    .content .two p
+    {
+        width: 80%;
+        margin-left:50px;
+    }
+    .content .two input
+    {
+        width: 200px;
+    }
+    .content button
+    {
+        width: 100px;
+    }
+
+
 }
